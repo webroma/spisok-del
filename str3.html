@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дел</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster:regular" rel="stylesheet" />
+</head>
+<body>
+    <header class="header-nav">        
+        <div class="burger-button">
+            <a class="burger_btn" type="button">
+                <i></i>
+            </a>
+        </div>        
+        <div class="main-title">
+            <h2 class="title">To-do-list</h2>
+            </div>
+        <div class="nav-button">
+            <img src="img/122.png" alt="" class="domik">
+            <a href="index.html" class="glavni2">Главная</a>
+            <img src="img/Emojione_BW_1F4D2.svg.png" alt="" class="img-dobavit1">
+            <a href="str3.html" class="spisok-del2">Добавить задачу</a>
+            <img src="img/agenda.png" alt="" class="img-zavr1">
+            <a href="str1.html" class="arhiv3">Архив</a>
+            <img src="img/icon.png" alt="" class="img-kal1">
+            <a href="str2.html" class="Kalendar3">Календарь</a>
+        </div>  
+        <div class="header-button">
+            <a href="index.html" class="glavni">Главная</a>
+            <a href="str3.html" class="spisok-del">Добавить задачу</a>
+            <a href="str1.html" class="arhiv2">Архив</a>
+            <a href="str2.html" class="Kalendar2">Календарь</a>
+
+        </div>            
+        <a href="login.html" class="user-button"><img src="people_1200x120011.png" alt="" class="img/user"></a>
+       <a href="#!" class="button-span"><img src="d6c9bdc1-1151-4684-be8e-a61de83ba018.png" alt="" class="img/tri-tochki"></a>
+    </header>
+    <section class="container">
+            <div id="pagewrap">        
+            <div class="result">
+                <h1>Список дел</h1>
+                <input type="text" id="taskInput" placeholder="Добавить задачу">
+                <input type="datetime-local" id="taskTime"> 
+                <a id="addTask" class="add">Добавить</a>
+                <ul id="taskList"></ul>
+        </div>
+    </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

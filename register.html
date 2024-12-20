@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <title>Регистрация</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <form  class="container">
+        <h1 class="login-title">Register</h1>
+
+        <section class="input-box">            
+            <input type="text" name="username" placeholder="Username">
+            <i class="bx bxs-user"><img src="img/user.png" alt="" class="user"></i>
+        </section>
+        <section class="input-box">
+            <input type="password" name="password" placeholder="Password">
+            <i class="bx bxs-lock alt"><img src="img/zamok.png" alt="" class="zamok"></i>
+        </section>
+        <section class="second-pass">
+        <input type="password" name="password" placeholder="Confirm password">
+        <i class="bx bxs-lock alt"><img src="img/zamok.png" alt="" class="zamok"></i>
+        </section>
+
+        <section class="remember-forgot-box">
+            <div class="remember-me">
+                <input type="checkbox" name="remember-me" id="remember-me">
+                <label for="remember-me">
+                    <h5>Remember me</h5>
+                </label>
+            </div>
+        </section>
+
+        <button class="login-button" type="submit">
+            Register
+        </button>
+
+        <h5 class="dont-have-an-account">
+           Is something not working out?
+            <a href="register.html" class="register"><b>Help</b></a>
+        </h5>
+    </form>
+ </body>
+</html>
